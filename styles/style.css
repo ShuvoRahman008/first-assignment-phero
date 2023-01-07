@@ -58,6 +58,7 @@
 .half-width {
    
     padding-left: 87px;
+    display: flex;
     
 
 
@@ -87,11 +88,11 @@
 }
 
 .section-width {
-    display: flex;
+    /* display: flex; */
     padding-left: 230px;
     padding-right: 300px;
     padding-top: 115px;
-
+    
 
 }
 
