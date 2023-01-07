@@ -234,6 +234,7 @@ p {
     gap: 330px;
     width: 1900px;
     height: 500px;
+    padding-bottom:100px;
 
 }
 
@@ -293,6 +294,7 @@ input {
 .address img {
     padding-right: 20px;
 }
+
 .btn-input{
     width: 160px;
     height: 64px;
@@ -305,4 +307,95 @@ input {
     color: rgb(47, 183, 236);
     font-weight: 700;
     font-size: 15px;
+}
+
+/* extra addition */
+
+.about-me{
+    display: flex;
+   
+    width: 100%;
+    
+    text-align: center;
+    
+}
+.dream{
+    border: 0;
+    margin-right:px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    width: 33%;
+    background-image: linear-gradient(to right,rgb(12, 228, 156),rgba(219, 155, 15, 0.404));
+    background-color: yellow;
+  
+}
+
+
+.goal{
+    border-radius: 5px;
+    
+    padding: 20px 20px 20px 20px;
+    width: 33%;
+    background-image: linear-gradient(to right,rgb(110, 5, 102),rgba(53, 10, 206, 0.733));
+    background-color: rgb(255, 47, 220);
+    
+}
+
+
+.skills{
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+    width: 33%;
+    background-image: linear-gradient(to right,rgb(15, 221, 228),rgba(247, 126, 78, 0.685));
+    background-color:skyblue;
+    
+}
+    
+
+.text-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.skills P{ 
+    text-align:center left;
+}
+.btn-same{
+    width: 160px;
+    height: 64px;
+   
+    top: 51px;
+    border-radius: 5px;
+    background-color: rgb(143, 12, 155);
+    padding: 15px 30px;
+    border: 0;
+    color: rgb(183, 209, 32);
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 230px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to left, rgb(221, 90, 90) , rgb(88, 194, 221));
+
+}
+.btn-same2{
+    width: 160px;
+    height: 64px;
+   
+    top: 51px;
+    border-radius: 5px;
+    background-color: rgb(143, 12, 155);
+    background-image: linear-gradient(to left, rgb(238, 101, 101) , rgb(109, 109, 23));
+    padding: 15px 30px;
+    border: 0;
+    color: rgb(183, 209, 32);
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 175px;
+    margin-bottom: 20px;
+
+
 }
