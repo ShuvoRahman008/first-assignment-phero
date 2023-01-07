@@ -3,27 +3,26 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* banner styles */
+
+
 .banner {
     background-image: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
     width: 1900px;
-    height: 950px;
+    height: 1000px;
     text-align: right;
     background-size: cover;
     color: rgb(240, 232, 232);
 
-
-
 }
 
-.banner img {
-    width: 100%;
-}
 
 .banner-area {
-    padding: 220px 200px 370px 1100px;
+    padding: 300px 200px 350px 1100px;
 
 }
+
 
 .banner-title {
     font-weight: 700;
@@ -32,6 +31,7 @@
     padding-bottom: 24px;
 }
 
+
 .banner-description {
     font-weight: 400;
     font-size: 16px;
@@ -39,6 +39,7 @@
     padding-bottom: 24px;
 
 }
+
 
 .btn-banner {
     width: 160px;
@@ -55,29 +56,45 @@
 
 }
 
-.half-width {
-   
-    padding-left: 87px;
-    display: flex;
-    
 
+
+.banner img {
+    width: 100%;
+}
+
+
+
+
+/* failure section */
+
+.section-width {
+    display: flex;
+    padding-left: 230px;
+    padding-right: 300px;
+    padding-top: 115px;
 
 
 }
 
+
+.half-width {
+
+    padding-left: 87px;
+
+}
 
 
 .failures-area {
-    /* padding-left: 15px;  */
     padding-top: 300px;
-
 }
+
 
 .failures-title {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 24px;
 }
+
 
 .failures-description {
     font-weight: 400;
@@ -87,14 +104,9 @@
     line-height: 30px;
 }
 
-.section-width {
-    /* display: flex; */
-    padding-left: 230px;
-    padding-right: 300px;
-    padding-top: 115px;
-    
 
-}
+
+
 
 .failures-list {
     font-weight: 400;
@@ -105,37 +117,42 @@
     text-align: left;
 }
 
+
 p img {
     width: 15px;
 }
+
 
 p {
     margin-bottom: 10px;
 }
 
 
+
+/* plans section */
+
+
 .plans {
     margin-top: 150px;
     padding-left: 230px;
     padding-right: 300px;
-
-
 }
+
 
 .list-plans {
     display: flex;
     text-align: center;
     justify-content: space-around;
-
 }
+
 
 .plans .my-plans {
     text-align: center;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 40px;
-
 }
+
 
 .plan-title {
     font-weight: 700;
@@ -144,19 +161,25 @@ p {
     color: #151414;
 }
 
+
 .plan-description {
     font-size: 25px;
     line-height: 29px;
     color: #737272;
 }
 
+
 .list-plans img {
     margin-bottom: 20px;
 }
 
+
+/* contact section */
+
+
 .contact {
-    background-image:linear-gradient(to right, rgba(47, 34, 221, 0.986), rgba(184, 184, 184, 0.027)),
-    url('../images/watch.png');
+    background-image: linear-gradient(to right, rgba(47, 34, 221, 0.986), rgba(184, 184, 184, 0.027)),
+        url('../images/watch.png');
     background-repeat: no-repeat;
     border: 0;
     border-radius: 10px;
@@ -164,17 +187,17 @@ p {
     margin-right: 300px;
     margin-bottom: 130px;
     background-size: cover;
-   
-
-
+    width: 1140px;
+    height: 300px;
 }
+
 
 .contact-title {
     padding-left: 65px;
     padding-right: 600px;
     margin-top: 60px;
-
 }
+
 
 .contact-description {
     font-weight: 700;
@@ -182,6 +205,7 @@ p {
     color: white;
     padding-top: 30px;
 }
+
 
 .contact-btn {
     width: 160px;
@@ -197,25 +221,31 @@ p {
     font-size: 15px;
     margin-top: 10px;
     margin-bottom: 20px;
-
-
 }
+
+
+/* address section */
+
 
 .address {
     background-color: #151414;
     color: white;
     display: flex;
-    gap:330px;
-    
+    gap: 330px;
+    width: 1900px;
+    height: 500px;
 
 }
+
 
 .address-container {
     padding-left: 30px;
     padding-top: 10px;
     margin-left: 300px;
 
+
 }
+
 
 .address-form {
     padding-left: 30px;
@@ -224,28 +254,42 @@ p {
     margin-top: 130px;
     font-weight: 600;
     font-size: 25px;
-
-
-
 }
+
 
 input {
     padding-left: 10px;
-    width: 325px;
-    height: 50px;
     border-radius: 5px;
     background-color: #151414;
     color: white;
     margin-top: 30px;
     border: 1px solid white;
+    width: 325px;
+    height: 64px;
+
 }
+
 
 .address-title {
     margin-top: 130px;
+    font-weight: 700;
+    font-size: 45px;
 }
+
 
 .address-description {
     margin-top: 30px;
     font-weight: 400;
     font-size: 16px;
+    color: #FFFFFF;
+}
+
+
+.address-container p {
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.address img {
+    padding-right: 20px;
 }
