@@ -155,7 +155,7 @@ p {
 
 .contact {
     background-image:linear-gradient(to right, rgba(47, 34, 221, 0.986), rgba(184, 184, 184, 0.027)),
-    url('/images/watch.png');
+    url('../images/watch.png');
     background-repeat: no-repeat;
     border: 0;
     border-radius: 10px;
