@@ -293,3 +293,16 @@ input {
 .address img {
     padding-right: 20px;
 }
+.btn-input{
+    width: 160px;
+    height: 64px;
+    left: 1220px;
+    top: 51px;
+    border-radius: 5px;
+    background-color: rgb(69, 14, 221);
+    padding: 15px 30px;
+    border: 0;
+    color: rgb(47, 183, 236);
+    font-weight: 700;
+    font-size: 15px;
+}
